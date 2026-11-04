@@ -22,6 +22,6 @@ steps:
     goals: 'clean test'
 - task: PublishTestResults@2
   inputs:
-    testResultsFormat: 'junit'
+    
     testResultsFiles:  '**/surefire-reports/TEST-*.xml'
     testRunTitle: "regression test"
